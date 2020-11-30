@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class MaxDayOfMonth {
 	public static int getMaxDay(int month) {
-		int[] Month = { 31, 28, 30, 31, 30, 31, 30, 31, 30, 31, 30, 31 };
-		return Month[month - 1];
+		int[] month_day = { 31, 28, 30, 31, 30, 31, 30, 31, 30, 31, 30, 31 };
+		return month_day[month - 1];
 	}
 
 	public static void main(String[] args) {
