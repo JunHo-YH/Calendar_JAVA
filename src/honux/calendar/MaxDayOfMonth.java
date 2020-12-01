@@ -11,10 +11,20 @@ public class MaxDayOfMonth {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.print("달을 입력하세요: ");
-		int Month = scan.nextInt();
-
-		System.out.println(getMaxDay(Month));
-
+		int month = scan.nextInt();
+		
+		System.out.printf("   << %d년 %d월 >>\n", 2020, month);
+		for(int i = 1; i <= getMaxDay(month); i++) {
+			
+			if(i > 0 && i < 10) {
+				System.out.print(" " + i + " ");	
+			}else {
+				System.out.print(""+ i + " ");
+			}
+			if(i % 7 == 0) {
+				System.out.println();
+			}
+		}
 	}
 
 }
