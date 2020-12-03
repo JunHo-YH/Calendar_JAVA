@@ -47,4 +47,6 @@ public class MaxDayOfMonth {
 		printCalendar(year, month);
 
 	}
+	
+	// 조금 더 디테일하게 만들어보기.
 }
