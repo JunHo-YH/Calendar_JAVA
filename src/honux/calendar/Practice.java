@@ -23,6 +23,7 @@ public class Practice {
 		System.out.println("sum = " + sum);
 		// 전체 1회독하기.
 		
+		
 	}
 
 }
